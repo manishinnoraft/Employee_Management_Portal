@@ -1,0 +1,47 @@
+uuid: 408e9dc3-a955-4510-b417-b26445911870
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.user.compact
+    - field.field.user.user.field_holidays_this_year
+    - field.field.user.user.field_invalid_punches
+    - field.field.user.user.field_job_role
+    - field.field.user.user.field_late_marks
+    - field.field.user.user.field_lop
+    - field.field.user.user.field_salary_details
+    - field.field.user.user.field_social_media_links
+    - field.field.user.user.field_user_name
+    - field.field.user.user.user_picture
+    - image.style.thumbnail
+  module:
+    - image
+    - user
+_core:
+  default_config_hash: 00zr_RBdTjPjBGITD3h4c1ESQZimjdVCcHGt1trLqIY
+id: user.user.compact
+targetEntityType: user
+bundle: user
+mode: compact
+content:
+  user_picture:
+    type: image
+    label: hidden
+    settings:
+      image_link: content
+      image_style: thumbnail
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_holidays_this_year: true
+  field_invalid_punches: true
+  field_job_role: true
+  field_late_marks: true
+  field_lop: true
+  field_salary_details: true
+  field_social_media_links: true
+  field_user_name: true
+  member_for: true

@@ -1,0 +1,119 @@
+uuid: 535a4961-245e-4011-9401-e0dd62302569
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.article
+    - node.type.page
+    - taxonomy.vocabulary.tags
+  module:
+    - block_content
+    - comment
+    - contact
+    - domain_registration
+    - field_permissions
+    - field_ui
+    - node
+    - paragraphs_type_permissions
+    - search
+    - system
+    - taxonomy
+    - toolbar
+    - tour
+    - views_ui
+id: hr
+label: HR
+weight: 4
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access private fields'
+  - 'access site in maintenance mode'
+  - 'access site reports'
+  - 'access taxonomy overview'
+  - 'access toolbar'
+  - 'access tour'
+  - 'access user contact forms'
+  - 'access user profiles'
+  - 'administer account settings'
+  - 'administer block_content display'
+  - 'administer block_content fields'
+  - 'administer block_content form display'
+  - 'administer comment display'
+  - 'administer comment fields'
+  - 'administer comment form display'
+  - 'administer contact forms'
+  - 'administer contact_message display'
+  - 'administer contact_message fields'
+  - 'administer contact_message form display'
+  - 'administer content types'
+  - 'administer display modes'
+  - 'administer domain registration'
+  - 'administer menu'
+  - 'administer modules'
+  - 'administer node display'
+  - 'administer node fields'
+  - 'administer node form display'
+  - 'administer nodes'
+  - 'administer permissions'
+  - 'administer search'
+  - 'administer site configuration'
+  - 'administer software updates'
+  - 'administer taxonomy'
+  - 'administer taxonomy_term display'
+  - 'administer taxonomy_term fields'
+  - 'administer taxonomy_term form display'
+  - 'administer themes'
+  - 'administer user display'
+  - 'administer user fields'
+  - 'administer user form display'
+  - 'administer users'
+  - 'administer views'
+  - 'bypass node access'
+  - 'cancel account'
+  - 'change own username'
+  - 'create article content'
+  - 'create page content'
+  - 'create paragraph content salary_status'
+  - 'create terms in tags'
+  - 'delete all revisions'
+  - 'delete any article content'
+  - 'delete any page content'
+  - 'delete article revisions'
+  - 'delete page revisions'
+  - 'delete terms in tags'
+  - 'edit any article content'
+  - 'edit any page content'
+  - 'edit field_holidays_this_year'
+  - 'edit field_invalid_punches'
+  - 'edit field_job_role'
+  - 'edit field_late_marks'
+  - 'edit field_lop'
+  - 'edit field_salary_details'
+  - 'edit field_social_media_links'
+  - 'edit own field_holidays_this_year'
+  - 'edit terms in tags'
+  - 'link to any page'
+  - 'revert all revisions'
+  - 'revert article revisions'
+  - 'revert page revisions'
+  - 'update paragraph content salary_status'
+  - 'use advanced search'
+  - 'view all revisions'
+  - 'view article revisions'
+  - 'view field_holidays_this_year'
+  - 'view field_invalid_punches'
+  - 'view field_job_role'
+  - 'view field_late_marks'
+  - 'view field_lop'
+  - 'view field_salary_details'
+  - 'view field_social_media_links'
+  - 'view field_user_name'
+  - 'view own field_job_role'
+  - 'view own user_picture'
+  - 'view page revisions'
+  - 'view paragraph content salary_status'
+  - 'view the administration theme'
+  - 'view user email addresses'
+  - 'view user_picture'

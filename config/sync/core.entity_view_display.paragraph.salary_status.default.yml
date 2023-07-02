@@ -1,0 +1,45 @@
+uuid: 7b5203c1-e6f7-4745-9ea6-3678dc051f14
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.salary_status.field_date_
+    - field.field.paragraph.salary_status.field_salary_
+    - field.field.paragraph.salary_status.field_status
+    - paragraphs.paragraphs_type.salary_status
+  module:
+    - datetime
+id: paragraph.salary_status.default
+targetEntityType: paragraph
+bundle: salary_status
+mode: default
+content:
+  field_date_:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_salary_:
+    type: number_decimal
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_status:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+hidden: {  }

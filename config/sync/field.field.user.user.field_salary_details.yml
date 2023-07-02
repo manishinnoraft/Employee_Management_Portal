@@ -1,0 +1,31 @@
+uuid: 9ccb2a6f-f356-4436-b547-ee81430a67b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_salary_details
+    - paragraphs.paragraphs_type.salary_status
+  module:
+    - entity_reference_revisions
+    - user
+id: user.user.field_salary_details
+field_name: field_salary_details
+entity_type: user
+bundle: user
+label: 'Salary Details'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      salary_status: salary_status
+    negate: 0
+    target_bundles_drag_drop:
+      salary_status:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions

@@ -1,0 +1,40 @@
+uuid: fdb05afa-21a2-470a-8000-a9054316332e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.salary_status.field_date_
+    - field.field.paragraph.salary_status.field_salary_
+    - field.field.paragraph.salary_status.field_status
+    - paragraphs.paragraphs_type.salary_status
+  module:
+    - datetime
+id: paragraph.salary_status.default
+targetEntityType: paragraph
+bundle: salary_status
+mode: default
+content:
+  field_date_:
+    type: datetime_default
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_salary_:
+    type: number
+    weight: 1
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_status:
+    type: string_textfield
+    weight: 4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

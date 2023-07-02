@@ -1,0 +1,21 @@
+uuid: 16d976c3-90e4-4a11-b316-bfee739fc11a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_date_
+    - paragraphs.paragraphs_type.salary_status
+  module:
+    - datetime
+id: paragraph.salary_status.field_date_
+field_name: field_date_
+entity_type: paragraph
+bundle: salary_status
+label: 'Date '
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

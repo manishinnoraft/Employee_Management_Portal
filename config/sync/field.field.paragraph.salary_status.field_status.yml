@@ -1,0 +1,19 @@
+uuid: 8fa9ce9b-823f-4231-8fe7-811955cf1a46
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_status
+    - paragraphs.paragraphs_type.salary_status
+id: paragraph.salary_status.field_status
+field_name: field_status
+entity_type: paragraph
+bundle: salary_status
+label: ' Status'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

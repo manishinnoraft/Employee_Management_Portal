@@ -1,0 +1,50 @@
+uuid: ef61493d-14be-4f20-a3ce-912f4cbd296e
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+    - filter.format.webform_default
+  module:
+    - comment
+    - contact
+    - field_permissions
+    - filter
+    - paragraphs_type_permissions
+    - search
+    - shortcut
+    - system
+_core:
+  default_config_hash: I44QAB4es39lNzMQWiJLq2dfjX7VRSOzT_5KzAcUq_M
+id: authenticated
+label: 'Authenticated User'
+weight: 1
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'access user profiles'
+  - 'change own username'
+  - 'create field_social_media_links'
+  - 'create field_user_name'
+  - 'create user_picture'
+  - 'edit own field_social_media_links'
+  - 'edit own field_user_name'
+  - 'edit own user_picture'
+  - 'post comments'
+  - 'search content'
+  - 'skip comment approval'
+  - 'use text format basic_html'
+  - 'use text format webform_default'
+  - 'view own field_holidays_this_year'
+  - 'view own field_invalid_punches'
+  - 'view own field_job_role'
+  - 'view own field_late_marks'
+  - 'view own field_lop'
+  - 'view own field_salary_details'
+  - 'view own field_social_media_links'
+  - 'view own field_user_name'
+  - 'view own user_picture'
+  - 'view paragraph content salary_status'

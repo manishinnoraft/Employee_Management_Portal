@@ -1,0 +1,8 @@
+uuid: 3c0200aa-0757-4143-ac6e-0945cf76a8c6
+langcode: en
+status: true
+dependencies: {  }
+name: 'Job Role'
+vid: job_role
+description: ''
+weight: 0

@@ -1,0 +1,31 @@
+uuid: 192f91b9-65ec-49f5-af45-53befd09e1fd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_salary_status
+    - node.type.article
+    - paragraphs.paragraphs_type.salary_status
+  module:
+    - entity_reference_revisions
+id: node.article.field_salary_status
+field_name: field_salary_status
+entity_type: node
+bundle: article
+label: 'Salary Status'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      salary_status: salary_status
+    negate: 0
+    target_bundles_drag_drop:
+      salary_status:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions

@@ -1,0 +1,23 @@
+uuid: 3053724b-4205-4e9d-8605-9f883fae0808
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_salary_
+    - paragraphs.paragraphs_type.salary_status
+id: paragraph.salary_status.field_salary_
+field_name: field_salary_
+entity_type: paragraph
+bundle: salary_status
+label: 'Salary '
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float
